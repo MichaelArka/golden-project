@@ -96,3 +96,57 @@ nav li:hover {
     background-size: cover;
     background-attachment: fixed;
 }
+
+/* Services */
+.services {
+
+     h1 {
+        color: black;
+        padding-top: 30px;
+     }
+    
+     h4 {
+         color: black;
+     }
+    .wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        position: relative;
+        margin-top: 100px;
+        margin-bottom: 100px;
+        align-content: stretch;
+
+        i:first-of-type {
+            line-height: 70px;
+            font-size: 90px;
+            color: gold;
+    }
+        i:last-of-type {
+            width: 70px;
+            height: 70px;
+            line-height: 70px;
+            font-size: 40px;
+            border-radius: 50%;
+            color: gold;
+            background: transparent;
+            border-color: gold;
+            margin-left: 10px;
+    }
+    }
+    .services-box {
+        flex: 0 0 33%;
+        display: flex;
+        min-height: 100px;
+        height: 100%;
+        position: relative;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .services-description {
+        width: 360px;
+        text-align: center;
+        color: black;
+        padding: 15px 60px 15px 0;
+    }
+}

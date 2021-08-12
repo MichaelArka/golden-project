@@ -103,4 +103,60 @@ nav li:hover {
   background-size: cover;
   background-attachment: fixed;
 }
-/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3Nhc3Mvc3R5bGUuc2NzcyIsInN0eWxlLmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQSxXQUFBO0FBRUE7RUFDSSxpQkFBaUI7RUFDakIsWUFBWTtFQUNaLGVBQWU7RUFDZixnQkFBZ0I7RUFDaEIsV0FBVztBQ0FmOztBREVBO0VBQ0ksYUFBYTtFQUNiLG1CQUFtQjtFQUNuQixrQkFBa0I7RUFDbEIsa0JBQWtCO0VBQ2xCLFlBQVk7QUNDaEI7O0FERUEsY0FBQTtBQUVBO0VBQ0ksdUJBQXVCO0VBQ3ZCLGlCQUFpQjtFQUNqQixvQkFBb0I7QUNBeEI7O0FERUE7RUFDSSxxQkFBcUI7RUFDckIsa0JBQWtCO0VBQ2xCLHFCQUFxQjtFQUNyQixrQkFBa0I7RUFDbEIsZUFBZTtBQ0NuQjs7QURDQTtFQUNJLGtCQUFrQjtFQUNsQixrQkFBa0I7RUFDbEIsZ0JBQWdCO0VBQ2hCLFNBQVM7RUFDVCwyQkFBMkI7QUNFL0I7O0FEQUE7RUFDSSxxQkFBcUI7RUFDckIsV0FBVztBQ0dmOztBRERBO0VBQ0ksV0FBVztBQ0lmOztBREZBO0VBQ0kscUJBQXFCO0FDS3pCOztBREhBO0VBQ0ksZUFBZTtFQUNmLGdCQUFnQjtFQUNoQixXQUFXO0VBQ1gsb0JBQW9CO0FDTXhCOztBREpBLFdBQUE7QUFFQTtFQUVRLGVBQWU7QUNLdkI7O0FEUEE7RUFLUSxlQUFlO0FDTXZCOztBRFhBO0VBUVEscUJBQXFCO0VBQ3JCLGdCQUFnQjtFQUNoQix3QkFBd0I7RUFDeEIsYUFBYTtFQUNiLGtCQUFrQjtFQUNsQixlQUFlO0VBQ2YscUJBQXFCO0VBQ3JCLGVBQWU7RUFDZixrQkFBa0I7RUFDbEIsaUJBQWlCO0VBQ2pCLG1CQUFtQjtFQUNuQiwyQkFBMkI7RUFDM0IscUJBQXFCO0VBQ3JCLGtCQUFrQjtBQ08xQjs7QUQ1QkE7RUF3QlEsV0FBVztBQ1FuQjs7QURoQ0E7RUEyQlEsa0JBQWtCO0VBQ2xCLFdBQVc7RUFDWCx1QkFBdUI7QUNTL0I7O0FETEEsV0FBQTtBQUNBO0VBQ0ksWUFBWTtFQUNaLGtCQUFrQjtFQUNsQix5SUFBeUk7RUFDekksa0NBQWtDO0VBQ2xDLHNCQUFzQjtFQUN0Qiw0QkFBNEI7QUNRaEMiLCJmaWxlIjoic3R5bGUuY3NzIn0= */
+
+/* Services */
+.services h1 {
+  color: black;
+  padding-top: 30px;
+}
+
+.services h4 {
+  color: black;
+}
+
+.services .wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  position: relative;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  align-content: stretch;
+}
+
+.services .wrapper i:first-of-type {
+  line-height: 70px;
+  font-size: 90px;
+  color: gold;
+}
+
+.services .wrapper i:last-of-type {
+  width: 70px;
+  height: 70px;
+  line-height: 70px;
+  font-size: 40px;
+  border-radius: 50%;
+  color: gold;
+  background: transparent;
+  border-color: gold;
+  margin-left: 10px;
+}
+
+.services .services-box {
+  flex: 0 0 33%;
+  display: flex;
+  min-height: 100px;
+  height: 100%;
+  position: relative;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.services .services-description {
+  width: 360px;
+  text-align: center;
+  color: black;
+  padding: 15px 60px 15px 0;
+}
+
+/*# sourceMappingURL=style.css.map */
