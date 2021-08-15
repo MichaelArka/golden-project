@@ -14,6 +14,9 @@ body {
     text-align: center;
     margin: auto;
 }
+*, *::before, *::after {
+    box-sizing: border-box;
+}
 
 /* Navigation*/
 
@@ -88,6 +91,7 @@ nav li:hover {
 }
 
 /* Splash */
+
 .splash {
     height: 80vh;
     position: relative;
@@ -98,55 +102,116 @@ nav li:hover {
 }
 
 /* Services */
-.services {
 
-     h1 {
-        color: black;
-        padding-top: 30px;
-     }
-    
-     h4 {
-         color: black;
-     }
-    .wrapper {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-        position: relative;
-        margin-top: 100px;
-        margin-bottom: 100px;
-        align-content: stretch;
-
-        i:first-of-type {
-            line-height: 70px;
-            font-size: 90px;
-            color: gold;
+.services-header {
+ color: black;
+ padding: 30px 0 0 45px;
+    h1 {
+        font-size: 40px;
     }
-        i:last-of-type {
-            width: 70px;
-            height: 70px;
-            line-height: 70px;
+}
+.wrapper {
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+position: relative;
+margin-top: 100px;
+margin-bottom: 100px;
+}
+.services-description {
+    flex: 0 0 33.333%;
+    position: relative;
+    color: black;
+    height: 250px;
+    padding-bottom: 25px;
+
+    i:first-of-type {
+        line-height: 70px;
+        font-size: 90px;
+        color: gold;
+    }
+    i:last-of-type {
+        width: 70px;
+        height: 70px;
+        line-height: 70px;
+        font-size: 40px;
+        border-radius: 50%;
+        color: gold;
+        background: transparent;
+        border-color: gold;
+        margin-left: 10px;
+    }
+    h3 {
+        padding: 45px 0 0 40px;
+    }
+    p {
+        padding: 0 0 0 40px;
+    }
+}
+
+/* Portfolio */
+
+.portfolio {
+    background-color: rgb(231, 228, 228);
+    height: 1200px;
+
+    .portfolio-header {
+        color: black;
+        padding: 35px 0 0 0;
+        h1 {
             font-size: 40px;
-            border-radius: 50%;
-            color: gold;
-            background: transparent;
-            border-color: gold;
-            margin-left: 10px;
+        }
     }
+    .portfolio-image {
+        
+        h3{
+            
+        }
+        p {
+
+        }
     }
-    .services-box {
-        flex: 0 0 33%;
-        display: flex;
-        min-height: 100px;
-        height: 100%;
-        position: relative;
-        flex-wrap: wrap;
-        justify-content: space-around;
-    }
-    .services-description {
-        width: 360px;
-        text-align: center;
+        img {
+            width: 250px;
+            height: 250px;
+        }
+    .portfolio-box {
+        flex: 0 0 33.333%;
         color: black;
-        padding: 15px 60px 15px 0;
+        background-color: transparent;
+        height: 370px;
+        padding: 0 0 80px 0;
+    }
+}
+
+/* Footer */
+
+.footer-div {
+    width: 1140px;
+    height: 100px;
+    
+    ul {
+        text-align: center;
+        flex: 75%;
+        padding-right: 300px;
+    }
+    li {
+        display: inline-block;
+        padding: 15px 15px 60px 0;
+    }
+    i {
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+        font-size: 15px;
+        border-radius: 50%;
+        color: #fff;
+        background: rgb(51, 47, 59);
+        text-align: center;
+    }
+    p {
+        color: rgb(51, 47, 59);
+        padding: 15px 0 0 10px;
+        flex: 25%;
     }
 }
