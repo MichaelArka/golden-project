@@ -4,18 +4,21 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Golden-project></title>
+    <title>Golden-project</title>
     <link rel="stylesheet" href="vendor/bootstrap-grid.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
 </head>
 <body>
-    <div class="container splash">
+    <div class="splash">
         <nav class="navigation">
+            <div class="menu-btn">
+                <div class="menu-btn-burger">
+    
+                </div>
+            </div>
+            <a class="logo" href="#">Golden</a>
             <ul>
-                <li>
-                    <a class="logo" href="#">Golden</a>
-                </li>
                 <li>
                     <a href="#">Home</a>
                 </li>
@@ -32,7 +35,6 @@
                     <a href="#">Contact</a>
                 </li>
             </ul>
-
             <div class="container">
                 <div class="header">
                     <h3>Welcome to Our Studio!</h3>
@@ -51,9 +53,10 @@
             <div class="wrapper">
                 <div class="services-description">
                     <div class="services-icon">
-                        <span class="fa-stack" style="vertical-align: top;">
-                        <i class="far fa-circle fa-stack-2x"></i>
-                        <i class="fas fa-box-open"></i>
+                        <span class="fa-stack">
+                            <i class="far fa-circle fa-stack-2x"></i>
+                            <i class="fas fa-box-open"></i>
+                        </span>
                     </div>
                     <h3>E-services</h3>
                     <p>
@@ -63,9 +66,10 @@
                 </div>
                 <div class="services-description">
                     <div class="services-icon">
-                        <span class="fa-stack" style="vertical-align: top;">
-                        <i class="far fa-circle fa-stack-2x"></i>
-                        <i class="fas fa-tablet-alt"></i>
+                        <span class="fa-stack">
+                            <i class="far fa-circle fa-stack-2x"></i>
+                            <i class="fas fa-tablet-alt"></i>
+                        </span>
                     </div>
                     <h3>Responsive Web</h3>
                     <p>
@@ -75,9 +79,10 @@
                 </div>
                 <div class="services-description">
                     <div class="services-icon">
-                        <span class="fa-stack" style="vertical-align: top;">
-                        <i class="far fa-circle fa-stack-2x"></i>
-                        <i class="fas fa-unlock-alt"></i>
+                        <span class="fa-stack">
+                            <i class="far fa-circle fa-stack-2x"></i>
+                            <i class="fas fa-unlock-alt"></i>
+                        </span>
                     </div>
                     <h3>Web Security</h3>
                     <p>
@@ -95,7 +100,7 @@
                     <h1>OUR PORTFOLIO</h1>
                     <h3>Lorem ipsum dolor sit amet.</h3>
                 </div>
-                <div class="wrapper">
+                <div class="portfolio-wrapper">
                     <div class="portfolio-box">
                         <div class="portfolio-image">
                             <img src="https://images.pexels.com/photos/2176119/pexels-photo-2176119.jpeg?cs=srgb&dl=pexels-mac-destroir-2176119.jpg&fm=jpg">
@@ -142,19 +147,22 @@
             </div>
         </div>
     </section>
-    <footer class="site-footer">
-        <div class="footer-div">
-            <div class="wrapper">
-                <p>©Copyright 2021 MichalXpress.com</p>
-                <ul>
-                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                    <li><a href="#"><i class="fab fa-instagram"></i></a></li>
-                    <li><a href="#"><i class="fab fa-behance"></i></a></li>
-                    <li><a href="#"><i class="fab fa-google-plus"></i></a></li>
-                </ul>
+    <div class="container">
+        <footer class="site-footer">
+            <div class="footer-div">
+                <div class="footer-wrapper">
+                    <p>©Copyright 2021 MichalXpress.com</p>
+                    <ul>
+                        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                        <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                        <li><a href="#"><i class="fab fa-behance"></i></a></li>
+                        <li><a href="#"><i class="fab fa-google-plus"></i></a></li>
+                    </ul>
+                </div>
             </div>
-        </div>
-    </footer>
+        </footer>
+    </div>
+<script src="js/script.js"></script>
 </body>
 </html>
 
